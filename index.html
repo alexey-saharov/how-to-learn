@@ -18,13 +18,13 @@
       </p>
       <img class="header__main-illustration" src="./blocks/header/images/header-image.png"
            alt="Опять двойка - картина Федора Решетникова">
-      <div class="header__square-pic start-rotation-360"></div>
+      <div class="header__square-pic start-rotation"></div>
     </header>
 
     <main class="content">
 
       <section class="description">
-        <div class="two-columns">
+        <article class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал. Мы готовимся к экзаменам и
@@ -37,7 +37,7 @@
             <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и
               захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
           </div>
-        </div>
+        </article>
       </section>
 
       <section class="techniques">
@@ -78,16 +78,20 @@
       <section class="video">
         <h2 class="section-title">Видео на TED</h2>
         <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-        <div class="video__iframes">
-          <iframe class="video__iframe" id="ytplayer" width="720" height="405"
-                  src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
-          <iframe class="video__iframe" id="ytplayer2" width="720" height="405"
-                  src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
-        </div>
+        <ul class="video__iframes">
+          <li>
+            <iframe class="video__iframe" id="ytplayer"
+                    src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
+          </li>
+          <li>
+            <iframe class="video__iframe" id="ytplayer2"
+                    src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
+          </li>
+        </ul>
       </section>
 
       <section class="oakley">
-        <div class="two-columns">
+        <article class="two-columns">
           <h2 class="two-columns__brief">История Барбары Оакли.</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">С детства Барбаре не давалась математика. Она считала себя законченным
@@ -96,7 +100,7 @@
               И тогда Барбара придумала свой подход к точным наукам. Оказалось, если вам что-то «плохо даётся», ваши
               добытые трудом знания гораздо глубже, чем у тех, кому всё ясно с первого взгляда.</p>
           </div>
-        </div>
+        </article>
       </section>
 
       <section class="feynman">
@@ -210,18 +214,26 @@
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li>
         </ul>
-        <div class="kaufman__triangle start-rotation-360"></div>
+        <div class="kaufman__triangle start-rotation"></div>
       </section>
 
       <section class="resources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-        <div class="resources__logo-zone">
-          <img class="resources__logo" src="./blocks/resources/images/resources-arzamas.svg" alt="лого Арзамас">
-          <img class="resources__logo" src="./blocks/resources/images/resources-n1.svg" alt="лого Н+1">
-          <img class="resources__logo" src="./blocks/resources/images/resources-polka.svg" alt="лого Стрелка">
-          <img class="resources__logo" src="./blocks/resources/images/resources-strelka.svg" alt="лого Полка">
-        </div>
+        <ul class="resources__logo-zone">
+          <li>
+            <a href="#" class="resources__logo resources__logo_name_arzamas link"></a>
+          </li>
+          <li>
+            <a href="#" class="resources__logo resources__logo_name_n1 link"></a>
+          </li>
+          <li>
+            <a href="#" class="resources__logo resources__logo_name_strelka link"></a>
+          </li>
+          <li>
+            <a href="#" class="resources__logo resources__logo_name_polka link"></a>
+          </li>
+        </ul>
       </section>
 
     </main>
