@@ -1,5 +1,7 @@
 # Научиться учиться
 
+https://alexey-saharov.github.io/how-to-learn/
+
 Проект на Яндекс.Практикум по возможностям HTML и CSS
 
 ****
